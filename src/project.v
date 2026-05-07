@@ -5,7 +5,7 @@
 
 `default_nettype none
 
-module tt_ik_0_ptat_bgr (
+module tt_um_ik_0_ptat_bgr (
     input  wire       VGND,
     input  wire       VDPWR,    // 1.8v power supply
 //    input  wire       VAPWR,    // 3.3v power supply
