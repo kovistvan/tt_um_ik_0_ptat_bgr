@@ -1,4 +1,4 @@
-# Analog Bandgap Reference — PTAT / ZTC
+# Analog Bandgap Reference: pseudo-IPTAT * R + VBE
 
 A simple bandgap voltage reference based on a pseudo-PTAT current generator with enable-gated startup. Schematic entry and simulation are done in **xschem / ngspice**.
 
