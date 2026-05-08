@@ -18,7 +18,7 @@ The figure below shows the schematic capture in xschem.
 - **PTAT core** — 1:8 NPN pair develops ΔV<sub>BE</sub> = (kT/q)·ln(8) across `RGND`, producing
   I<sub>PTAT</sub> = ΔV<sub>BE</sub> / R<sub>GND</sub>.
 - **Output branch** — I<sub>PTAT</sub> is mirrored into a series `R + V_BE` combination, so that
-  V<sub>REF</sub> = I<sub>PTAT</sub> · (R + V<sub>BE</sub> ).
+  V<sub>REF</sub> = I<sub>PTAT</sub>·R + V<sub>BE</sub>.
   R is sized so the PTAT drop cancels the CTAT slope of V<sub>BE</sub>, giving near-zero TC at room temperature.
 - **Startup** — When `avdd` rises, `en_start` (tied to `avdd`) injects a kick current that lifts the loop out of the zero-current state; once biased, the startup branch self-disables and consumes negligible current.
 
