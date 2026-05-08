@@ -47,9 +47,9 @@ Transient response of `VREF_TT` as `avdd` ramps from 0 V to 1.8 V, showing exit 
 
 <img width="1464" height="712" alt="image" src="https://github.com/user-attachments/assets/e109865d-5107-4066-9a90-853b4227ff42" />
 
-### 1:8 bipolar pair and bandgap output
+### 1:8 NPN bipolar pair and output NPN bipolar
 
-Operating points of the 1:8 NPN pair alongside the regulated `VREF_TT`.
+The 1:8 NPN pair alongside the NPN dummy devices.
 
 <img width="833" height="686" alt="image" src="https://github.com/user-attachments/assets/2b6097b3-7819-452d-84a8-4f244ff42940" />
 
