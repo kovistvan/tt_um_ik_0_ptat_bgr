@@ -29,9 +29,9 @@ The figure below shows the schematic capture in xschem.
 | `avdd` (`VDPWR`) | Supply | 1.8 V analog supply                                |
 | `gnd` (`VGND`)   | Supply | Analog ground                                      |
 | `en_start`       | Input  | Startup enable, connected to `avdd`                |
-| `vbg` (`ua[0]`)  | Output | Bandgap reference output, ≈ 1.2 V                  |
+| `vbg` (`VREF_TT`)| Output | Bandgap reference output, ≈ 1.2 V                  |
 
-When the 1.8 V supply is applied, the analog output `ua[0]` = `vbg` settles close to 1.2 V with low temperature dependence.
+When the 1.8 V supply is applied, the analog output `VREF_TT` = `vbg` settles close to 1.2 V with low temperature dependence.
 
 ## Simulation results
 
@@ -43,13 +43,13 @@ V<sub>REF</sub> swept across the target temperature range; the residual curvatur
 
 ### Transient startup
 
-Transient response of `vref` as `avdd` ramps from 0 V to 1.8 V, showing exit from the zero-current state and settling at the nominal reference level.
+Transient response of `VREF_TT` as `avdd` ramps from 0 V to 1.8 V, showing exit from the zero-current state and settling at the nominal reference level.
 
 <img width="1464" height="712" alt="image" src="https://github.com/user-attachments/assets/e109865d-5107-4066-9a90-853b4227ff42" />
 
 ### 1:8 bipolar pair and bandgap output
 
-Operating points of the 1:8 NPN pair alongside the regulated `vref`.
+Operating points of the 1:8 NPN pair alongside the regulated `VREF_TT`.
 
 <img width="833" height="686" alt="image" src="https://github.com/user-attachments/assets/2b6097b3-7819-452d-84a8-4f244ff42940" />
 
