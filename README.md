@@ -47,7 +47,6 @@ When the 1.8 V supply is applied, the analog output `VREF_TT` = `vbg` settles cl
 | Supply current              | I<sub>DD</sub>   |   5.24 |   6.94 |   8.70 | μA     |
 | Power consumption           | P                |      — |   12.5 |      — | μW     |
 
-
 ### Bandgap output vs. temperature
 
 V<sub>REF</sub> swept across the target temperature range; the residual curvature illustrates the second-order error after first-order PTAT/CTAT cancellation.
@@ -63,6 +62,22 @@ Transient response of `VREF_TT` as `avdd` ramps from 0 V to 1.8 V, showing exit 
 ### PSRR performance
 
 <img width="1285" height="514" alt="image" src="https://github.com/user-attachments/assets/33975448-bcca-4be6-a96b-3d3147c66078" />
+
+## PVT Simulation results
+
+### BGR output voltage variation
+┌────────┬────────────────────┬──────────────┬─────────────┐                                                                                  │ Corner │    Description     │ VREF @ 27 °C │ TC (ppm/°C) │  
+├────────┼────────────────────┼──────────────┼─────────────┤                                                                                  
+│ tt     │ Nom MOS, nom R/C   │ 1141.8 mV    │ 48.3        │  
+├────────┼────────────────────┼──────────────┼─────────────┤
+│ ss_hh  │ Slow MOS, high R/C │ 1152.8 mV    │ 65.1        │                                                                                  ├────────┼────────────────────┼──────────────┼─────────────┤                                                                                  
+│ ff_ll  │ Fast MOS, low R/C  │ 1117.2 mV    │ 96.7        │                                                                                  ├────────┼────────────────────┼──────────────┼─────────────┤                                                                                  
+│ ff_hh  │ Fast MOS, high R/C │ 1153.0 mV    │ 64.5        │  
+├────────┼────────────────────┼──────────────┼─────────────┤                                                                                  
+│ ss_ll  │ Slow MOS, low R/C  │ 1117.1 mV    │ 96.5        │
+└────────┴────────────────────┴──────────────┴─────────────┘  
+
+
 
 ### 1:8 NPN bipolar pair and output NPN bipolar
 
