@@ -1,0 +1,174 @@
+v {xschem version=3.4.6 file_version=1.2}
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=x1"
+}
+V {}
+S {}
+E {}
+L 4 0 0 260 0 {}
+L 4 0 660 260 660 {}
+L 4 -20 60 0 60 {}
+L 4 -20 80 0 80 {}
+L 4 -20 100 0 100 {}
+L 4 -20 120 0 120 {}
+L 4 260 180 280 180 {}
+L 4 260 200 280 200 {}
+L 4 260 220 280 220 {}
+L 4 -20 140 0 140 {}
+L 4 -20 160 0 160 {}
+L 4 260 240 280 240 {}
+L 4 260 260 280 260 {}
+L 4 260 280 280 280 {}
+L 4 -20 180 0 180 {}
+L 4 -20 200 0 200 {}
+L 4 -20 220 0 220 {}
+L 4 260 300 280 300 {}
+L 4 260 320 280 320 {}
+L 4 260 340 280 340 {}
+L 4 -20 240 0 240 {}
+L 4 260 360 280 360 {}
+L 4 -20 260 0 260 {}
+L 4 260 380 280 380 {}
+L 4 260 400 280 400 {}
+L 4 260 420 280 420 {}
+L 4 260 440 280 440 {}
+L 4 -20 280 0 280 {}
+L 4 -20 300 0 300 {}
+L 4 260 460 280 460 {}
+L 4 260 480 280 480 {}
+L 4 260 500 280 500 {}
+L 4 -20 320 0 320 {}
+L 4 -20 340 0 340 {}
+L 4 260 520 280 520 {}
+L 4 260 540 280 540 {}
+L 4 -20 360 0 360 {}
+L 4 260 560 280 560 {}
+L 4 260 580 280 580 {}
+L 4 -20 380 0 380 {}
+L 4 260 600 280 600 {}
+L 4 -20 400 0 400 {}
+L 4 260 620 280 620 {}
+L 4 260 640 280 640 {}
+L 4 -20 420 0 420 {}
+L 4 260 0 260 660 {}
+L 4 0 0 0 660 {}
+L 7 -20 20 0 20 {}
+L 7 260 20 280 20 {}
+L 7 -20 40 0 40 {}
+L 7 260 40 280 40 {}
+L 7 260 60 280 60 {}
+L 7 260 80 280 80 {}
+L 7 260 100 280 100 {}
+L 7 260 120 280 120 {}
+L 7 260 140 280 140 {}
+L 7 260 160 280 160 {}
+B 5 -22.5 57.5 -17.5 62.5 {name=clk dir=in sim_pinnumber=1}
+B 5 -22.5 77.5 -17.5 82.5 {name=ena dir=in sim_pinnumber=2}
+B 5 -22.5 97.5 -17.5 102.5 {name=rst_n dir=in sim_pinnumber=3}
+B 5 277.5 17.5 282.5 22.5 {name=ua[0] dir=inout sim_pinnumber=4}
+B 5 277.5 37.5 282.5 42.5 {name=ua[1] dir=inout sim_pinnumber=5}
+B 5 277.5 57.5 282.5 62.5 {name=ua[2] dir=inout sim_pinnumber=6}
+B 5 277.5 77.5 282.5 82.5 {name=ua[3] dir=inout sim_pinnumber=7}
+B 5 277.5 97.5 282.5 102.5 {name=ua[4] dir=inout sim_pinnumber=8}
+B 5 277.5 117.5 282.5 122.5 {name=ua[5] dir=inout sim_pinnumber=9}
+B 5 277.5 137.5 282.5 142.5 {name=ua[6] dir=inout sim_pinnumber=10}
+B 5 277.5 157.5 282.5 162.5 {name=ua[7] dir=inout sim_pinnumber=11}
+B 5 -22.5 117.5 -17.5 122.5 {name=ui_in[0] dir=in sim_pinnumber=12}
+B 5 -22.5 157.5 -17.5 162.5 {name=ui_in[1] dir=in sim_pinnumber=13}
+B 5 -22.5 197.5 -17.5 202.5 {name=ui_in[2] dir=in sim_pinnumber=14}
+B 5 -22.5 237.5 -17.5 242.5 {name=ui_in[3] dir=in sim_pinnumber=15}
+B 5 -22.5 297.5 -17.5 302.5 {name=ui_in[4] dir=in sim_pinnumber=16}
+B 5 -22.5 337.5 -17.5 342.5 {name=ui_in[5] dir=in sim_pinnumber=17}
+B 5 -22.5 377.5 -17.5 382.5 {name=ui_in[6] dir=in sim_pinnumber=18}
+B 5 -22.5 417.5 -17.5 422.5 {name=ui_in[7] dir=in sim_pinnumber=19}
+B 5 -22.5 137.5 -17.5 142.5 {name=uio_in[0] dir=in sim_pinnumber=20}
+B 5 -22.5 177.5 -17.5 182.5 {name=uio_in[1] dir=in sim_pinnumber=21}
+B 5 -22.5 217.5 -17.5 222.5 {name=uio_in[2] dir=in sim_pinnumber=22}
+B 5 -22.5 257.5 -17.5 262.5 {name=uio_in[3] dir=in sim_pinnumber=23}
+B 5 -22.5 277.5 -17.5 282.5 {name=uio_in[4] dir=in sim_pinnumber=24}
+B 5 -22.5 317.5 -17.5 322.5 {name=uio_in[5] dir=in sim_pinnumber=25}
+B 5 -22.5 357.5 -17.5 362.5 {name=uio_in[6] dir=in sim_pinnumber=26}
+B 5 -22.5 397.5 -17.5 402.5 {name=uio_in[7] dir=in sim_pinnumber=27}
+B 5 277.5 217.5 282.5 222.5 {name=uio_oe[0] dir=out sim_pinnumber=28}
+B 5 277.5 237.5 282.5 242.5 {name=uio_oe[1] dir=out sim_pinnumber=29}
+B 5 277.5 337.5 282.5 342.5 {name=uio_oe[2] dir=out sim_pinnumber=30}
+B 5 277.5 397.5 282.5 402.5 {name=uio_oe[3] dir=out sim_pinnumber=31}
+B 5 277.5 457.5 282.5 462.5 {name=uio_oe[4] dir=out sim_pinnumber=32}
+B 5 277.5 517.5 282.5 522.5 {name=uio_oe[5] dir=out sim_pinnumber=33}
+B 5 277.5 577.5 282.5 582.5 {name=uio_oe[6] dir=out sim_pinnumber=34}
+B 5 277.5 637.5 282.5 642.5 {name=uio_oe[7] dir=out sim_pinnumber=35}
+B 5 277.5 197.5 282.5 202.5 {name=uo_out[0] dir=out sim_pinnumber=36}
+B 5 277.5 257.5 282.5 262.5 {name=uo_out[1] dir=out sim_pinnumber=37}
+B 5 277.5 297.5 282.5 302.5 {name=uo_out[2] dir=out sim_pinnumber=38}
+B 5 277.5 377.5 282.5 382.5 {name=uo_out[3] dir=out sim_pinnumber=39}
+B 5 277.5 437.5 282.5 442.5 {name=uo_out[4] dir=out sim_pinnumber=40}
+B 5 277.5 497.5 282.5 502.5 {name=uo_out[5] dir=out sim_pinnumber=41}
+B 5 277.5 557.5 282.5 562.5 {name=uo_out[6] dir=out sim_pinnumber=42}
+B 5 277.5 617.5 282.5 622.5 {name=uo_out[7] dir=out sim_pinnumber=43}
+B 5 -22.5 17.5 -17.5 22.5 {name=VDPWR dir=inout sim_pinnumber=44}
+B 5 -22.5 37.5 -17.5 42.5 {name=VGND dir=inout sim_pinnumber=45}
+B 5 277.5 177.5 282.5 182.5 {name=uio_out[0] dir=out sim_pinnumber=46}
+B 5 277.5 277.5 282.5 282.5 {name=uio_out[1] dir=out sim_pinnumber=47}
+B 5 277.5 317.5 282.5 322.5 {name=uio_out[2] dir=out sim_pinnumber=48}
+B 5 277.5 357.5 282.5 362.5 {name=uio_out[3] dir=out sim_pinnumber=49}
+B 5 277.5 417.5 282.5 422.5 {name=uio_out[4] dir=out sim_pinnumber=50}
+B 5 277.5 477.5 282.5 482.5 {name=uio_out[5] dir=out sim_pinnumber=51}
+B 5 277.5 537.5 282.5 542.5 {name=uio_out[6] dir=out sim_pinnumber=52}
+B 5 277.5 597.5 282.5 602.5 {name=uio_out[7] dir=out sim_pinnumber=53}
+T {@symname} 77.5 34 0 0 0.3 0.3 {}
+T {@name} 75 18 0 0 0.2 0.2 {}
+T {VDPWR} 5 16 0 0 0.2 0.2 {}
+T {ua[0]} 255 16 0 1 0.2 0.2 {}
+T {VGND} 5 36 0 0 0.2 0.2 {}
+T {ua[1]} 255 36 0 1 0.2 0.2 {}
+T {ua[2]} 255 56 0 1 0.2 0.2 {}
+T {ua[3]} 255 76 0 1 0.2 0.2 {}
+T {ua[4]} 255 96 0 1 0.2 0.2 {}
+T {ua[5]} 255 116 0 1 0.2 0.2 {}
+T {ua[6]} 255 136 0 1 0.2 0.2 {}
+T {clk} 5 56 0 0 0.2 0.2 {}
+T {ena} 5 76 0 0 0.2 0.2 {}
+T {ua[7]} 255 156 0 1 0.2 0.2 {}
+T {rst_n} 5 96 0 0 0.2 0.2 {}
+T {ui_in[0]} 5 116 0 0 0.2 0.2 {}
+T {uio_out[0]} 255 176 0 1 0.2 0.2 {}
+T {uo_out[0]} 255 196 0 1 0.2 0.2 {}
+T {uio_oe[0]} 255 216 0 1 0.2 0.2 {}
+T {uio_in[0]} 5 136 0 0 0.2 0.2 {}
+T {ui_in[1]} 5 156 0 0 0.2 0.2 {}
+T {uio_oe[1]} 255 236 0 1 0.2 0.2 {}
+T {uo_out[1]} 255 256 0 1 0.2 0.2 {}
+T {uio_out[1]} 255 276 0 1 0.2 0.2 {}
+T {uio_in[1]} 5 176 0 0 0.2 0.2 {}
+T {ui_in[2]} 5 196 0 0 0.2 0.2 {}
+T {uio_in[2]} 5 216 0 0 0.2 0.2 {}
+T {uo_out[2]} 255 296 0 1 0.2 0.2 {}
+T {uio_out[2]} 255 316 0 1 0.2 0.2 {}
+T {uio_oe[2]} 255 336 0 1 0.2 0.2 {}
+T {ui_in[3]} 5 236 0 0 0.2 0.2 {}
+T {uio_out[3]} 255 356 0 1 0.2 0.2 {}
+T {uio_in[3]} 5 256 0 0 0.2 0.2 {}
+T {uo_out[3]} 255 376 0 1 0.2 0.2 {}
+T {uio_oe[3]} 255 396 0 1 0.2 0.2 {}
+T {uio_out[4]} 255 416 0 1 0.2 0.2 {}
+T {uo_out[4]} 255 436 0 1 0.2 0.2 {}
+T {uio_in[4]} 5 276 0 0 0.2 0.2 {}
+T {ui_in[4]} 5 296 0 0 0.2 0.2 {}
+T {uio_oe[4]} 255 456 0 1 0.2 0.2 {}
+T {uio_out[5]} 255 476 0 1 0.2 0.2 {}
+T {uo_out[5]} 255 496 0 1 0.2 0.2 {}
+T {uio_in[5]} 5 316 0 0 0.2 0.2 {}
+T {ui_in[5]} 5 336 0 0 0.2 0.2 {}
+T {uio_oe[5]} 255 516 0 1 0.2 0.2 {}
+T {uio_out[6]} 255 536 0 1 0.2 0.2 {}
+T {uio_in[6]} 5 356 0 0 0.2 0.2 {}
+T {uo_out[6]} 255 556 0 1 0.2 0.2 {}
+T {uio_oe[6]} 255 576 0 1 0.2 0.2 {}
+T {ui_in[6]} 5 376 0 0 0.2 0.2 {}
+T {uio_out[7]} 255 596 0 1 0.2 0.2 {}
+T {uio_in[7]} 5 396 0 0 0.2 0.2 {}
+T {uo_out[7]} 255 616 0 1 0.2 0.2 {}
+T {uio_oe[7]} 255 636 0 1 0.2 0.2 {}
+T {ui_in[7]} 5 416 0 0 0.2 0.2 {}
