@@ -42,6 +42,8 @@ When the 1.8 V supply is applied, the analog output `VREF_TT` = `vbg` settles cl
 | Reference voltage (TT)      | V<sub>REF</sub>  |  1.134 |  1.141 |  1.142 | V      |
 | Reference variation over T  | ΔV<sub>REF</sub> |      — |   7.72 |      — | mV     |
 | Temperature coefficient     | TC               |      — |   48.3 |      — | ppm/°C |
+| PSRR  @ 1Hz                 | PSRR             |      — |   41.3 |      — | dB     |
+| PSRR  @ 1MHz                | PSRR - worst     |      — |   3.1  |      — | dB     |
 | Supply current              | I<sub>DD</sub>   |   5.24 |   6.94 |   8.70 | μA     |
 | Power consumption           | P                |      — |   12.5 |      — | μW     |
 
@@ -57,6 +59,10 @@ V<sub>REF</sub> swept across the target temperature range; the residual curvatur
 Transient response of `VREF_TT` as `avdd` ramps from 0 V to 1.8 V, showing exit from the zero-current state and settling at the nominal reference level.
 
 <img width="1464" height="712" alt="image" src="https://github.com/user-attachments/assets/e109865d-5107-4066-9a90-853b4227ff42" />
+
+### PSRR performance
+
+<img width="1285" height="514" alt="image" src="https://github.com/user-attachments/assets/33975448-bcca-4be6-a96b-3d3147c66078" />
 
 ### 1:8 NPN bipolar pair and output NPN bipolar
 
