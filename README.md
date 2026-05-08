@@ -35,12 +35,16 @@ When the 1.8 V supply is applied, the analog output `VREF_TT` = `vbg` settles cl
 
 ## Simulation results
 
-| Parameter        | Unit   | Value                                        |
-| ---------------- | ------ | -------------------------------------------------- |
-| `VREF_TT` @ 27C | Supply | 1.8 V analog supply                                |
-| `gnd` (`VGND`)   | Supply | Analog ground                                      |
-| `en_start`       | Input  | Startup enable, connected to `avdd`                |
-| `vbg` (`VREF_TT`)| Output | Bandgap reference output, ≈ 1.2 V                  |
+| Parameter                   | Symbol           |    Min |    Typ |    Max | Unit   |
+| --------------------------- | ---------------- | -----: | -----: | -----: | ------ |
+| Operating temperature       | T                |    −40 |     27 |    100 | °C     |
+| Supply voltage              | AVDD             |      — |    1.8 |      — | V      |
+| Reference voltage (TT)      | V<sub>REF</sub>  |  1.134 |  1.141 |  1.142 | V      |
+| Reference variation over T  | ΔV<sub>REF</sub> |      — |   7.72 |      — | mV     |
+| Temperature coefficient     | TC               |      — |   48.3 |      — | ppm/°C |
+| Supply current              | I<sub>DD</sub>   |   5.24 |   6.94 |   8.70 | μA     |
+| Power consumption           | P                |      — |   12.5 |      — | μW     |
+
 
 ### Bandgap output vs. temperature
 
@@ -69,3 +73,7 @@ The 1:8 NPN pair alongside the NPN dummy devices.
 - **Schematic / simulation:** xschem, ngspice
 - **Layout:** Magic (DRC/PEX) / KLayout (DRC)
 - **PDK:** SkyWater SKY130
+
+## License
+
+Released under the Apache-2.0 license. See [`LICENSE`](LICENSE) for details.
