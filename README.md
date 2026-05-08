@@ -11,7 +11,7 @@ Enable-gated startup branch ensures the bgr loop leaves zero-current operating p
 
 The figure below shows the schematic capture in xschem.
 
-<img width="895" height="576" alt="image" src="https://github.com/user-attachments/assets/1f5ad406-040a-4dcc-b7ea-cfd9bcd647df" />
+<img width="828" height="549" alt="image" src="https://github.com/user-attachments/assets/0b027a15-f82f-4d05-ad29-2dd06f4f379a" />
 
 ## Theory of operation
 
