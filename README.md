@@ -67,19 +67,24 @@ Transient response of `VREF_TT` as `avdd` ramps from 0 V to 1.8 V, showing exit 
 
 ### Bandgap output vs. temperature
 
-
-│ Corner │    Description     │ VREF @ 27 °C │ TC (ppm/°C) │
-| ------ | ------------------ | ------------ | ----------- |
-│ tt     │ Nom MOS, nom R/C   │ 1141.8 mV    │ 48.3        │
-│ ss_hh  │ Slow MOS, high R/C │ 1152.8 mV    │ 65.1        │
-│ ff_ll  │ Fast MOS, low R/C  │ 1117.2 mV    │ 96.7        │
-│ ff_hh  │ Fast MOS, high R/C │ 1153.0 mV    │ 64.5        │
-│ ss_ll  │ Slow MOS, low R/C  │ 1117.1 mV    │ 96.5        │
-
+| Corner  | Description        | V<sub>REF</sub> @ 27 °C (mV) | TC (ppm/°C) |
+| ------- | ------------------ | ---------------------------: | ----------: |
+| `tt`    | Nom MOS, nom R/C   |                       1141.8 |        48.3 |
+| `ss_hh` | Slow MOS, high R/C |                       1152.8 |        65.1 |
+| `ff_hh` | Fast MOS, high R/C |                       1153.0 |        64.5 |
+| `ss_ll` | Slow MOS, low R/C  |                       1117.1 |        96.5 |
+| `ff_ll` | Fast MOS, low R/C  |                       1117.2 |        96.7 |
 
 <img width="1053" height="480" alt="image" src="https://github.com/user-attachments/assets/708bb5b7-c488-4c52-8706-7cf1c0b70dad" />
 
+
 ### Transient startup
+
+<img width="2685" height="740" alt="vref_tt_pvt_tran" src="https://github.com/user-attachments/assets/85de24ce-d527-472c-92aa-de8becd25b8d" />
+
+### PSRR performance
+
+<img width="2684" height="738" alt="psrr_pvt_ac" src="https://github.com/user-attachments/assets/515ba640-0926-4cda-a3fb-d62fa3831bcc" />
 
 ### 1:8 NPN bipolar pair and output NPN bipolar
 
