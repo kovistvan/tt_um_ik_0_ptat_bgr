@@ -35,6 +35,13 @@ When the 1.8 V supply is applied, the analog output `VREF_TT` = `vbg` settles cl
 
 ## Simulation results
 
+| Parameter        | Unit   | Value                                        |
+| ---------------- | ------ | -------------------------------------------------- |
+| `VREF_TT` @ 27C | Supply | 1.8 V analog supply                                |
+| `gnd` (`VGND`)   | Supply | Analog ground                                      |
+| `en_start`       | Input  | Startup enable, connected to `avdd`                |
+| `vbg` (`VREF_TT`)| Output | Bandgap reference output, ≈ 1.2 V                  |
+
 ### Bandgap output vs. temperature
 
 V<sub>REF</sub> swept across the target temperature range; the residual curvature illustrates the second-order error after first-order PTAT/CTAT cancellation.
