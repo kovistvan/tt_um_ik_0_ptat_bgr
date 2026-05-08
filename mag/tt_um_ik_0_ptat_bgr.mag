@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1778242913
+timestamp 1778245564
 << metal1 >>
 rect 9930 10350 10090 10360
 rect 9930 10220 9940 10350
@@ -117,7 +117,7 @@ rect 11317 0 11407 100
 rect 13249 0 13339 100
 rect 15180 0 15271 100
 use tt06-analog-bgr-ptat_pex_c_filt  tt06-analog-bgr-ptat_pex_c_filt_0
-timestamp 1778238719
+timestamp 1778245454
 transform 1 0 7030 0 1 1000
 box 1220 -500 7900 9436
 << labels >>
