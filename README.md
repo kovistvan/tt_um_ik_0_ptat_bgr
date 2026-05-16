@@ -96,6 +96,14 @@ The 1:8 NPN pair alongside the NPN dummy devices.
 
 <img width="1536" height="1245" alt="image" src="https://github.com/user-attachments/assets/7194e841-4a54-45f0-b906-e46c2173fda2" />
 
+### Layout rev1: extendend the circuits to enable circui testability.
+
+<img width="809" height="1140" alt="image" src="https://github.com/user-attachments/assets/d0bfa2a0-ec8f-461f-9afc-43dcc2876b14" />
+
+### Transient sequence for rev1:
+
+<img width="1930" height="731" alt="vref_tt_startup_pex" src="https://github.com/user-attachments/assets/2de09969-c2e9-4386-8e8a-30e8da230296" />
+
 ## Tools
 
 - **Schematic / simulation:** xschem, ngspice
