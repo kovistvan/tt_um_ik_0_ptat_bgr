@@ -1,0 +1,104 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1778910491
+<< pwell >>
+rect -880 -440 1940 2360
+<< psubdiff >>
+rect -840 2280 -240 2320
+rect 1280 2280 1900 2320
+rect -840 2160 -800 2280
+rect -840 -360 -800 -240
+rect 1860 2160 1900 2280
+rect 1860 -360 1900 -240
+rect -840 -400 -240 -360
+rect 1280 -400 1900 -360
+<< psubdiffcont >>
+rect -240 2280 1280 2320
+rect -840 -240 -800 2160
+rect 1860 -240 1900 2160
+rect -240 -400 1280 -360
+<< locali >>
+rect -840 2280 -240 2320
+rect 1280 2280 1900 2320
+rect -840 2160 -800 2280
+rect -840 -360 -800 -240
+rect 1860 2160 1900 2280
+rect 1860 -360 1900 -240
+rect -840 -400 -240 -360
+rect 1280 -400 1900 -360
+<< viali >>
+rect 440 2320 600 2400
+rect 440 2300 600 2320
+<< metal1 >>
+rect -240 2360 -40 2640
+rect 420 2400 620 2640
+rect -240 2160 -100 2360
+rect 420 2300 440 2400
+rect 600 2300 620 2400
+rect 1100 2360 1300 2640
+rect 420 2280 620 2300
+rect 1140 2160 1300 2360
+rect 0 1900 200 2100
+rect 400 1900 600 2100
+rect 800 1900 1000 2100
+rect -200 -200 0 0
+rect 200 -200 400 0
+rect 600 -200 800 0
+rect 1000 -200 1200 0
+use sky130_fd_pr__res_xhigh_po_0p69_EAXDFB  sky130_fd_pr__res_xhigh_po_0p69_EAXDFB_0
+timestamp 1778910491
+transform 1 0 1229 0 1 956
+box -68 -1256 146 1256
+use sky130_fd_pr__res_xhigh_po_0p69_EAXDFB  sky130_fd_pr__res_xhigh_po_0p69_EAXDFB_1
+timestamp 1778910491
+transform 1 0 1429 0 1 956
+box -68 -1256 146 1256
+use sky130_fd_pr__res_xhigh_po_0p69_EAXDFB  sky130_fd_pr__res_xhigh_po_0p69_EAXDFB_2
+timestamp 1778910491
+transform 1 0 -171 0 1 956
+box -68 -1256 146 1256
+use sky130_fd_pr__res_xhigh_po_0p69_EAXDFB  sky130_fd_pr__res_xhigh_po_0p69_EAXDFB_3
+timestamp 1778910491
+transform 1 0 1629 0 1 956
+box -68 -1256 146 1256
+use sky130_fd_pr__res_xhigh_po_0p69_EAXDFB  sky130_fd_pr__res_xhigh_po_0p69_EAXDFB_4
+timestamp 1778910491
+transform 1 0 -371 0 1 956
+box -68 -1256 146 1256
+use sky130_fd_pr__res_xhigh_po_0p69_EAXDFB  sky130_fd_pr__res_xhigh_po_0p69_EAXDFB_5
+timestamp 1778910491
+transform 1 0 -571 0 1 956
+box -68 -1256 146 1256
+use sky130_fd_pr__res_xhigh_po_0p69_EAXDFB  XROUT1
+timestamp 1778910491
+transform 1 0 29 0 1 956
+box -68 -1256 146 1256
+use sky130_fd_pr__res_xhigh_po_0p69_EAXDFB  XROUT2
+timestamp 1778910491
+transform 1 0 229 0 1 956
+box -68 -1256 146 1256
+use sky130_fd_pr__res_xhigh_po_0p69_EAXDFB  XROUT3
+timestamp 1778910491
+transform 1 0 429 0 1 956
+box -68 -1256 146 1256
+use sky130_fd_pr__res_xhigh_po_0p69_EAXDFB  XROUT4
+timestamp 1778910491
+transform 1 0 629 0 1 956
+box -68 -1256 146 1256
+use sky130_fd_pr__res_xhigh_po_0p69_EAXDFB  XROUT5
+timestamp 1778910491
+transform 1 0 829 0 1 956
+box -68 -1256 146 1256
+use sky130_fd_pr__res_xhigh_po_0p69_EAXDFB  XROUT6
+timestamp 1778910491
+transform 1 0 1029 0 1 956
+box -68 -1256 146 1256
+<< labels >>
+flabel metal1 420 2440 620 2640 0 FreeSans 256 0 0 0 gnd
+port 1 nsew
+flabel metal1 -240 2440 -40 2640 0 FreeSans 256 0 0 0 A
+port 0 nsew
+flabel metal1 1100 2440 1300 2640 0 FreeSans 256 0 0 0 B
+port 2 nsew
+<< end >>
